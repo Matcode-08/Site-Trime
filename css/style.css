@@ -145,4 +145,72 @@ section#information h2{
 
 
 
+/* Responsive layout */
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 420px) {
+    header, main, section{
+        flex-direction: column;
+        
+    }
 
+    header ul a{
+        font-size: 80%;
+    }
+
+    header div#h1_logo{
+        justify-content: center;
+    }
+
+    h1{
+        padding-right: 10px;
+    }
+
+    main div{
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+}
+  
+@media (max-width: 342px) {
+    header, main, section{
+        flex-direction: column;
+        
+    }
+
+    header h1{
+        font-size: 80px;
+    }
+
+    header ul a{
+        font-size: 100px;
+        margin: 5px 30px;
+    }
+
+    header ul{
+        flex-direction: column;
+    }
+}
+  
+@media (max-width: 310px) {
+    header, main, section{
+        flex-direction: column;
+        
+    }
+
+    header h1{
+        font-size: 50px;
+    }
+
+    header ul a{
+        font-size: 80%;
+        margin: 5px 30px;
+    }
+
+    header ul, header div{
+        flex-direction: column;
+    }
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
